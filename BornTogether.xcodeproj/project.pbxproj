@@ -9,11 +9,23 @@
 /* Begin PBXBuildFile section */
 		EC0023181A0044E4006F9164 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0023171A0044E4006F9164 /* main.m */; };
 		EC00231B1A0044E4006F9164 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00231A1A0044E4006F9164 /* AppDelegate.m */; };
-		EC00231E1A0044E4006F9164 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00231D1A0044E4006F9164 /* ViewController.m */; };
-		EC0023211A0044E4006F9164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC00231F1A0044E4006F9164 /* Main.storyboard */; };
-		EC0023231A0044E4006F9164 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC0023221A0044E4006F9164 /* Images.xcassets */; };
 		EC0023261A0044E4006F9164 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC0023241A0044E4006F9164 /* LaunchScreen.xib */; };
 		EC0023321A0044E4006F9164 /* BornTogetherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0023311A0044E4006F9164 /* BornTogetherTests.m */; };
+		EC0023491A004523006F9164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC00233B1A004523006F9164 /* Main.storyboard */; };
+		EC00234B1A004523006F9164 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00233F1A004523006F9164 /* ProfileViewController.m */; };
+		EC00234C1A004523006F9164 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0023411A004523006F9164 /* MainMenuViewController.m */; };
+		EC00234D1A004523006F9164 /* MTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0023431A004523006F9164 /* MTLoginViewController.m */; };
+		EC00234E1A004523006F9164 /* MTFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0023451A004523006F9164 /* MTFirstViewController.m */; };
+		EC00234F1A004523006F9164 /* MTConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0023471A004523006F9164 /* MTConstants.m */; };
+		EC0023501A004523006F9164 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC0023481A004523006F9164 /* Images.xcassets */; };
+		EC0023541A004684006F9164 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0023531A004684006F9164 /* libPods.a */; };
+		EC0023561A004687006F9164 /* libPods-Facebook-iOS-SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0023551A004687006F9164 /* libPods-Facebook-iOS-SDK.a */; };
+		EC0023581A00468A006F9164 /* libPods-Bolts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0023571A00468A006F9164 /* libPods-Bolts.a */; };
+		EC00235A1A00468E006F9164 /* libPods-Parse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0023591A00468E006F9164 /* libPods-Parse.a */; };
+		EC6FC7681A2E5043005DF2D8 /* Born-2-GetherBG.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6FC7671A2E5043005DF2D8 /* Born-2-GetherBG.png */; };
+		EC859AF41A0BCCC800F41D9B /* ImprovedChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC859AF31A0BCCC800F41D9B /* ImprovedChatViewController.m */; };
+		EC9BAFBC1A164EF000441C1E /* BTGUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9BAFBB1A164EF000441C1E /* BTGUserModel.m */; };
+		ECB4B3321A081BBB00A7A257 /* birthDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB4B3311A081BBB00A7A257 /* birthDateViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +39,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		72EBE27085C91B89CD3A1762 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C4212332A4A192C263AE718D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D989B1A6FB5B57F4EEB18E6D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC0023121A0044E4006F9164 /* BornTogether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BornTogether.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC0023161A0044E4006F9164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC0023171A0044E4006F9164 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC0023191A0044E4006F9164 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EC00231A1A0044E4006F9164 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EC00231C1A0044E4006F9164 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EC00231D1A0044E4006F9164 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EC0023201A0044E4006F9164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EC0023221A0044E4006F9164 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EC0023251A0044E4006F9164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EC00232B1A0044E4006F9164 /* BornTogetherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BornTogetherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC0023301A0044E4006F9164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC0023311A0044E4006F9164 /* BornTogetherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BornTogetherTests.m; sourceTree = "<group>"; };
+		EC00233B1A004523006F9164 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		EC00233E1A004523006F9164 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = ../ProfileViewController.h; sourceTree = "<group>"; };
+		EC00233F1A004523006F9164 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = ../ProfileViewController.m; sourceTree = "<group>"; };
+		EC0023401A004523006F9164 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuViewController.h; path = ../MainMenuViewController.h; sourceTree = "<group>"; };
+		EC0023411A004523006F9164 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainMenuViewController.m; path = ../MainMenuViewController.m; sourceTree = "<group>"; };
+		EC0023421A004523006F9164 /* MTLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTLoginViewController.h; path = ../MTLoginViewController.h; sourceTree = "<group>"; };
+		EC0023431A004523006F9164 /* MTLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTLoginViewController.m; path = ../MTLoginViewController.m; sourceTree = "<group>"; };
+		EC0023441A004523006F9164 /* MTFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTFirstViewController.h; path = ../MTFirstViewController.h; sourceTree = "<group>"; };
+		EC0023451A004523006F9164 /* MTFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTFirstViewController.m; path = ../MTFirstViewController.m; sourceTree = "<group>"; };
+		EC0023461A004523006F9164 /* MTConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTConstants.h; path = ../MTConstants.h; sourceTree = "<group>"; };
+		EC0023471A004523006F9164 /* MTConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTConstants.m; path = ../MTConstants.m; sourceTree = "<group>"; };
+		EC0023481A004523006F9164 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		EC0023511A004675006F9164 /* libPods-Parse.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Parse.a"; path = "Pods/build/Debug-iphoneos/libPods-Parse.a"; sourceTree = "<group>"; };
+		EC0023531A004684006F9164 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		EC0023551A004687006F9164 /* libPods-Facebook-iOS-SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Facebook-iOS-SDK.a"; path = "Pods/build/Debug-iphoneos/libPods-Facebook-iOS-SDK.a"; sourceTree = "<group>"; };
+		EC0023571A00468A006F9164 /* libPods-Bolts.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Bolts.a"; path = "Pods/build/Debug-iphoneos/libPods-Bolts.a"; sourceTree = "<group>"; };
+		EC0023591A00468E006F9164 /* libPods-Parse.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Parse.a"; path = "Pods/build/Debug-iphoneos/libPods-Parse.a"; sourceTree = "<group>"; };
+		EC00235D1A011E12006F9164 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EC6FC7671A2E5043005DF2D8 /* Born-2-GetherBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Born-2-GetherBG.png"; sourceTree = "<group>"; };
+		EC859AF21A0BCCC800F41D9B /* ImprovedChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImprovedChatViewController.h; sourceTree = "<group>"; };
+		EC859AF31A0BCCC800F41D9B /* ImprovedChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImprovedChatViewController.m; sourceTree = "<group>"; };
+		EC9BAFBA1A164EF000441C1E /* BTGUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTGUserModel.h; sourceTree = "<group>"; };
+		EC9BAFBB1A164EF000441C1E /* BTGUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTGUserModel.m; sourceTree = "<group>"; };
+		ECB4B3301A081BBB00A7A257 /* birthDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = birthDateViewController.h; sourceTree = "<group>"; };
+		ECB4B3311A081BBB00A7A257 /* birthDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = birthDateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +83,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC00235A1A00468E006F9164 /* libPods-Parse.a in Frameworks */,
+				EC0023581A00468A006F9164 /* libPods-Bolts.a in Frameworks */,
+				EC0023561A004687006F9164 /* libPods-Facebook-iOS-SDK.a in Frameworks */,
+				EC0023541A004684006F9164 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +100,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E90F8DC38FBEB85E4453638 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72EBE27085C91B89CD3A1762 /* Pods.debug.xcconfig */,
+				C4212332A4A192C263AE718D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		36D22926E579D2708AED0CFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC0023591A00468E006F9164 /* libPods-Parse.a */,
+				EC0023571A00468A006F9164 /* libPods-Bolts.a */,
+				EC0023551A004687006F9164 /* libPods-Facebook-iOS-SDK.a */,
+				EC0023531A004684006F9164 /* libPods.a */,
+				EC0023511A004675006F9164 /* libPods-Parse.a */,
+				D989B1A6FB5B57F4EEB18E6D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EC0023091A0044E4006F9164 = {
 			isa = PBXGroup;
 			children = (
 				EC0023141A0044E4006F9164 /* BornTogether */,
 				EC00232E1A0044E4006F9164 /* BornTogetherTests */,
 				EC0023131A0044E4006F9164 /* Products */,
+				0E90F8DC38FBEB85E4453638 /* Pods */,
+				36D22926E579D2708AED0CFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +145,29 @@
 		EC0023141A0044E4006F9164 /* BornTogether */ = {
 			isa = PBXGroup;
 			children = (
+				EC00233B1A004523006F9164 /* Main.storyboard */,
+				EC859AF21A0BCCC800F41D9B /* ImprovedChatViewController.h */,
+				EC859AF31A0BCCC800F41D9B /* ImprovedChatViewController.m */,
+				EC00233E1A004523006F9164 /* ProfileViewController.h */,
+				EC00233F1A004523006F9164 /* ProfileViewController.m */,
+				EC0023401A004523006F9164 /* MainMenuViewController.h */,
+				EC0023411A004523006F9164 /* MainMenuViewController.m */,
+				EC9BAFBA1A164EF000441C1E /* BTGUserModel.h */,
+				EC9BAFBB1A164EF000441C1E /* BTGUserModel.m */,
+				EC0023421A004523006F9164 /* MTLoginViewController.h */,
+				EC0023431A004523006F9164 /* MTLoginViewController.m */,
+				EC0023441A004523006F9164 /* MTFirstViewController.h */,
+				EC0023451A004523006F9164 /* MTFirstViewController.m */,
+				EC0023461A004523006F9164 /* MTConstants.h */,
+				EC0023471A004523006F9164 /* MTConstants.m */,
+				ECB4B3301A081BBB00A7A257 /* birthDateViewController.h */,
+				ECB4B3311A081BBB00A7A257 /* birthDateViewController.m */,
 				EC0023191A0044E4006F9164 /* AppDelegate.h */,
 				EC00231A1A0044E4006F9164 /* AppDelegate.m */,
-				EC00231C1A0044E4006F9164 /* ViewController.h */,
-				EC00231D1A0044E4006F9164 /* ViewController.m */,
-				EC00231F1A0044E4006F9164 /* Main.storyboard */,
-				EC0023221A0044E4006F9164 /* Images.xcassets */,
+				EC0023481A004523006F9164 /* Images.xcassets */,
 				EC0023241A0044E4006F9164 /* LaunchScreen.xib */,
+				EC00235D1A011E12006F9164 /* PrefixHeader.pch */,
+				EC6FC7671A2E5043005DF2D8 /* Born-2-GetherBG.png */,
 				EC0023151A0044E4006F9164 /* Supporting Files */,
 			);
 			path = BornTogether;
@@ -126,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC0023351A0044E4006F9164 /* Build configuration list for PBXNativeTarget "BornTogether" */;
 			buildPhases = (
+				0138A0784309E0435FE7961A /* Check Pods Manifest.lock */,
 				EC00230E1A0044E4006F9164 /* Sources */,
 				EC00230F1A0044E4006F9164 /* Frameworks */,
 				EC0023101A0044E4006F9164 /* Resources */,
+				C343C638119BE57B28767512 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +250,7 @@
 				TargetAttributes = {
 					EC0023111A0044E4006F9164 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = NCUCU8Q7HZ;
 					};
 					EC00232A1A0044E4006F9164 = {
 						CreatedOnToolsVersion = 6.1;
@@ -199,9 +282,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC0023211A0044E4006F9164 /* Main.storyboard in Resources */,
+				EC0023491A004523006F9164 /* Main.storyboard in Resources */,
+				EC0023501A004523006F9164 /* Images.xcassets in Resources */,
 				EC0023261A0044E4006F9164 /* LaunchScreen.xib in Resources */,
-				EC0023231A0044E4006F9164 /* Images.xcassets in Resources */,
+				EC6FC7681A2E5043005DF2D8 /* Born-2-GetherBG.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +298,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0138A0784309E0435FE7961A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C343C638119BE57B28767512 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC00230E1A0044E4006F9164 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC00231E1A0044E4006F9164 /* ViewController.m in Sources */,
+				EC859AF41A0BCCC800F41D9B /* ImprovedChatViewController.m in Sources */,
 				EC00231B1A0044E4006F9164 /* AppDelegate.m in Sources */,
 				EC0023181A0044E4006F9164 /* main.m in Sources */,
+				EC9BAFBC1A164EF000441C1E /* BTGUserModel.m in Sources */,
+				EC00234B1A004523006F9164 /* ProfileViewController.m in Sources */,
+				EC00234C1A004523006F9164 /* MainMenuViewController.m in Sources */,
+				ECB4B3321A081BBB00A7A257 /* birthDateViewController.m in Sources */,
+				EC00234E1A004523006F9164 /* MTFirstViewController.m in Sources */,
+				EC00234F1A004523006F9164 /* MTConstants.m in Sources */,
+				EC00234D1A004523006F9164 /* MTLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +368,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EC00231F1A0044E4006F9164 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC0023201A0044E4006F9164 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EC0023241A0044E4006F9164 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,21 +457,41 @@
 		};
 		EC0023361A0044E4006F9164 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72EBE27085C91B89CD3A1762 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = BornTogether/PrefixHeader.pch;
 				INFOPLIST_FILE = BornTogether/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		EC0023371A0044E4006F9164 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4212332A4A192C263AE718D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = BornTogether/PrefixHeader.pch;
 				INFOPLIST_FILE = BornTogether/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -412,6 +548,7 @@
 				EC0023371A0044E4006F9164 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC0023381A0044E4006F9164 /* Build configuration list for PBXNativeTarget "BornTogetherTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +557,7 @@
 				EC00233A1A0044E4006F9164 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
